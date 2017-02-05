@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 
 using Xamarin.Forms;
+using Xamarin.Forms.GoogleMaps;
 
 namespace XFGoogleMapSample
 {
@@ -10,6 +11,11 @@ namespace XFGoogleMapSample
         public TabContent1Page()
         {
             InitializeComponent();
+
+            map.CameraChanged += (sender, e) => 
+            {
+                map.InitialCameraUpdate = CameraUpdateFactory.NewCameraPosition(e.Position);
+            };
         }
     }
 }

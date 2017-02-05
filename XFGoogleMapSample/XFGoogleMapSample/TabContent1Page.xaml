@@ -8,6 +8,7 @@
     <ContentPage.Content>
         <StackLayout Orientation="Vertical">
             <map:Map
+				x:Name="map"
                 InitialCameraUpdate="35.6691088, 139.6012962, 13, 30, 60"
                 VerticalOptions="FillAndExpand" />
         </StackLayout>
