@@ -8,7 +8,7 @@ namespace XFGoogleMapSample
         {
             InitializeComponent();
 
-            buttonBasicMap.Clicked += (_, e) => Navigation.PushAsync(new BasicMapPage());
+            buttonBasicMap.Clicked += (_, e) => Navigation.PushAsync(new TabbedPage());
             buttonCamera.Clicked += (_, e) => Navigation.PushAsync(new CameraPage());
             buttonPins.Clicked += (_, e) => Navigation.PushAsync(new PinsPage());
             buttonShapes.Clicked += (_, e) => Navigation.PushAsync(new ShapesPage());

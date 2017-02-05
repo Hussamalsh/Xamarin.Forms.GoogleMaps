@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:local="clr-namespace:XFGoogleMapSample;assembly=XFGoogleMapSample"
+            x:Class="XFGoogleMapSample.TabParentPage"
+            Title="TabParent">
+    <local:TabContent1Page />
+    <local:TabContent2Page />
+    <local:TabContent3Page />
+    <!-- NavigationPage Title="Schedule">
+        <x:Arguments>
+            <local:TabContent1Page />
+        </x:Arguments>
+    </NavigationPage -->
+</TabbedPage>

@@ -13,7 +13,7 @@
 			Orientation="Vertical">
 
 			<Button x:Name="buttonBasicMap"
-					Text="Basic Map" />
+					Text="Issue 211" />
 			<Button x:Name="buttonCamera"
 					Text="Camera Control" />
 			<Button x:Name="buttonPins"

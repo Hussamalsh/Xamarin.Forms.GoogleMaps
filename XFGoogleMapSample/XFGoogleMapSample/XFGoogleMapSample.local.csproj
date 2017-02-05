@@ -65,6 +65,18 @@
     <EmbeddedResource Include="CameraPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="TabParentPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TabContent1Page.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TabContent2Page.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TabContent3Page.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -105,6 +117,18 @@
     <Compile Include="Variables.cs" />
     <Compile Include="CameraPage.xaml.cs">
       <DependentUpon>CameraPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TabParentPage.xaml.cs">
+      <DependentUpon>TabParentPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TabContent1Page.xaml.cs">
+      <DependentUpon>TabContent1Page.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TabContent2Page.xaml.cs">
+      <DependentUpon>TabContent2Page.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TabContent3Page.xaml.cs">
+      <DependentUpon>TabContent3Page.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
